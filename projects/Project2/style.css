@@ -98,3 +98,12 @@ body {
   background-color: var(--line-border-empty);
   cursor: not-allowed;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}

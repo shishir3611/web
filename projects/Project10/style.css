@@ -59,3 +59,12 @@ h3 {
 .btn:focus {
   outline: 0;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}

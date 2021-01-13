@@ -105,3 +105,12 @@ h1 {
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}

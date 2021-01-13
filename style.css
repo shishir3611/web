@@ -92,6 +92,15 @@ nav ul {
   padding-left: 30px;
 }
 
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 nav ul li {
   text-transform: uppercase;
   color: #fff;

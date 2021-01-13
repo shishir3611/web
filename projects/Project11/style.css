@@ -40,3 +40,12 @@ body {
   color: #555;
   font-size: 14px;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}

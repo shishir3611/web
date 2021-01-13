@@ -45,3 +45,12 @@ h1 {
 .box h2 {
   font-size: 45px;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -50,3 +50,12 @@ textarea {
 .tag.highlight {
   background-color: #273c75;
 }
+
+.for-projects i {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
