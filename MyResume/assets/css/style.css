@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #272829;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #272829;
   text-decoration: none;
 }
 
@@ -755,22 +755,22 @@ section {
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #0091ff;
 }
 .services .iconbox-blue:hover .icon i {
   color: #fff;
 }
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #0091ff;
 }
-.services .iconbox-orange i {
-  color: #ffa76e;
+.services .iconbox-purple i {
+  color: #a84bff;
 }
-.services .iconbox-orange:hover .icon i {
+.services .iconbox-purple:hover .icon i {
   color: #fff;
 }
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+.services .iconbox-purple:hover .icon path {
+  fill: #a84bff;
 }
 .services .iconbox-pink i {
   color: #e80368;
@@ -791,13 +791,13 @@ section {
   fill: #ffbb2c;
 }
 .services .iconbox-red i {
-  color: #ff5828;
+  color: #ff2828;
 }
 .services .iconbox-red:hover .icon i {
   color: #fff;
 }
 .services .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #ff2828;
 }
 .services .iconbox-teal i {
   color: #11dbcf;
@@ -880,42 +880,108 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
+.contact .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
   background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
-.contact .info i {
-  font-size: 20px;
-  color: #0563bb;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #eef7ff;
+.contact .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
 }
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
+.contact .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+.contact .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.contact .icon-box h4 {
   font-weight: 600;
-  margin-bottom: 5px;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+.contact .icon-box h4 a {
   color: #45505b;
+  transition: ease-in-out 0.3s;
 }
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
+.contact .icon-box p {
+  line-height: 24px;
   font-size: 14px;
-  color: #728394;
+  margin-bottom: 0;
 }
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+.contact .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+.contact .iconbox-blue i {
+  color: #0091ff;
+}
+.contact .iconbox-blue:hover .icon i {
   color: #fff;
+}
+.contact .iconbox-blue:hover .icon path {
+  fill: #0091ff;
+}
+.contact .iconbox-purple i {
+  color: #a84bff;
+}
+.contact .iconbox-purple:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-purple:hover .icon path {
+  fill: #a84bff;
+}
+.contact .iconbox-pink i {
+  color: #e80368;
+}
+.contact .iconbox-pink:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+.contact .iconbox-yellow i {
+  color: #ffbb2c;
+}
+.contact .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+.contact .iconbox-red i {
+  color: #ff2828;
+}
+.contact .iconbox-red:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-red:hover .icon path {
+  fill: #ff2828;
+}
+.contact .iconbox-teal i {
+  color: #11dbcf;
+}
+.contact .iconbox-teal:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
 }
 .contact .php-email-form {
   width: 100%;
@@ -1010,7 +1076,7 @@ section {
   text-align: center;
   padding: 30px 0;
 }
-#footer h3 {
+#footer h1 {
   font-size: 36px;
   font-weight: 700;
   position: relative;
@@ -1051,4 +1117,41 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+.footer .info {
+  width: 100%;
+  background: #fff;
+}
+.footer .info i {
+  font-size: 20px;
+  color: #0563bb;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.footer .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+.footer .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
+}
+.footer .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+.footer .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #0563bb;
+  color: #fff;
 }
