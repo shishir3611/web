@@ -983,6 +983,33 @@ section {
 .contact .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+.contact .iconbox-indigo i {
+  color: #000dc0;
+}
+.contact .iconbox-indigo:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-indigo:hover .icon path {
+  fill: #000dc0;
+}
+.contact .iconbox-orange i {
+  color: #db8a11;
+}
+.contact .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-orange:hover .icon path {
+  fill: #db8a11;
+}
+.contact .iconbox-green i {
+  color: #39db11;
+}
+.contact .iconbox-green:hover .icon i {
+  color: #fff;
+}
+.contact .iconbox-green:hover .icon path {
+  fill: #39db11;
+}
 .contact .php-email-form {
   width: 100%;
   background: #fff;
