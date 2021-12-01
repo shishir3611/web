@@ -427,13 +427,13 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+.portfolio .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-.skills .progress .skill {
+.portfolio .progress .skill {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
@@ -442,14 +442,14 @@ section {
   font-family: "Poppins", sans-serif;
   color: #45505b;
 }
-.skills .progress .skill .val {
+.portfolio .progress .skill .val {
   float: right;
   font-style: normal;
 }
-.skills .progress-bar-wrap {
+.portfolio .progress-bar-wrap {
   background: #f2f3f5;
 }
-.skills .progress-bar {
+.portfolio .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
