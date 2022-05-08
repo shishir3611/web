@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Origami</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+        .navbar-brand {
+            font-family: 'Montez';
+            justify-content: space-between;
+        }
+
+        .nav-item {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h3 {
+            font-family: 'Tangerine', cursive;
+        }
+
+        h1 {
+            font-family: 'Cookie';
+        }
+
+        ol {
+            list-style-type: decimal;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        .origamiCards {
+            width: 300px;
+            height: 300px;
+        }
+
+        .lead {
+            font-family: 'Bebas Neue', cursive;
+        }
+
+        .container-fluid {
+            text-align: center;
+        }
+
+        .card {
+            border-radius: 25px;
+            height: 500px;
+            /*width: 400px;*/
+
+        }
+
+        .origamiCards:hover{
+            opacity: 0.5;
+        }
+
+        .bodyImg{
+            position: relative;
+            padding-top: 10px;
+            
+        }
+
+        .bodyImg img{
+            border-radius: 5px;
+            
+        }
+
+        .bodyImg h1{
+            position: absolute;
+            color: #ffffff;
+            top: 30%;
+            left: 50%;
+            transform: translate(-70%, -50%);
+        }
+
+        .bodyImg h3{
+            position: absolute;
+            color: #ffffff;
+            justify-content: center;
+            top: 60%;
+            left: 45%;
+            transform: translate(-40%, -55%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Origami Designs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-bars"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutUs.html" target="_blank">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="followUs.html" target="_blank">Follow Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html" target="_blank">Back</a>
+                    </li>
+                    <!--li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html">Screen size</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li-->
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="background-color: rgb(214, 247, 247);">
+
+        <div class="bodyImg">
+            <img src="images/origamiBackgrounds.png" alt="#" width="863px">
+            <h1>Origami</h1>
+            <h3>Step by step tutorials are amazing for origami, but they are hard to find. Here we put together some
+                amazing
+                tutorials for people wishing to learn this strange type of art!</h3>
+        </div>
+
+
+
+        <br />
+        <!--div class="row">
+
+            <div class="col-1"></div>
+            <div class="col-10"-->
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-warning border-warning shadow">
+                        <p class="lead">Camel</p>
+                        <a href="https://origami.me/camel/" title="camel origami instructions"><img
+                                src="images/camel.png" alt="camel origami instructions" class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">A camel can have 1 or 2 humps</li>
+                            <li class="user-select-all">Camels don't need to drink water for 6-7 months - That's over
+                                half a
+                                year!!</li>
+                            <li class="user-select-all">Camels' humps are used for insolation, not for storing water
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-success border-success shadow">
+                        <p class="lead">chameleon</p>
+                        <a href="https://origami.me/chameleon/" title="chameleon origami instructions"><img
+                                src="images/chameleon.png" alt="chameleon origami instructions"
+                                class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">Chameleons are featured in Madagascar's folklore</li>
+                            <li class="user-select-all">Over 50% of chameleons live in Madagascar</li>
+                            <li class="user-select-all">Over 50% of chameleon species are endangered</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow" style="color: rgb(221, 147, 51); border-color: rgb(221, 147, 51);">
+                        <p class="lead">cicada</p>
+                        <a href="https://origami.me/flying-cicada/" title="cicada origami instructions"><img
+                                src="images/cicada.png" alt="cicada origami instructions" class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">A cicada's noise can damage your ears</li>
+                            <li class="user-select-all">A mother cicada can lay 600 eggs at once</li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <br />
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-dark border-dark shadow">
+                        <p class="lead">panda</p>
+                        <a href="https://origami.me/panda/" title="panda origami instructions"><img
+                                src="images/panda.png" alt="panda origami instructions" class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">All pandas on Earth rightfully belong to China, even if they're
+                                in a
+                                zoo
+                            </li>
+                            <li class="user-select-all">Panda cubs love to play with their mummy a lot</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow" style="color: rgb(255, 185, 93); border-color: rgb(255, 185, 93);">
+                        <p class="lead">teddy bear</p>
+                        <a href="https://origami.me/teddy-bear/" title="teddy bear origami instructions"><img
+                                src="images/teddy.png" alt="teddy bear origami instructions" class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">Winnie the Pooh was a real bear, who's death memorial is in ZSL
+                                London
+                                Zoo
+                            </li>
+                            <li class="user-select-all">The largest teddy bear is 16.8 meters tall and is displayed in
+                                Exploration
+                                Place, Wichita, Kansas</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-info border-info shadow">
+                        <p class="lead">pigeon</p>
+                        <a href="https://origami.me/pigeon/" title="pigeon origami instructions"><img
+                                src="images/pigeon.png" alt="pigeon origami instructions" class="origamiCards" /></a>
+                        <ol>
+                            <li class="user-select-all">Pigeons are intelllegent and can differentiate humans in a
+                                photograph
+                            </li>
+                            <li class="user-select-all">When they migrate they follow roads and even turn at junctions
+                            </li>
+                            <li class="user-select-all">They are social animals and as such, can be seen in groups of
+                                20-30
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <br/>
+            </div>
+        <!--/div>
+        <div class="col-1"></div>
+        </div-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
