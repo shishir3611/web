@@ -814,6 +814,25 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+.services .iconbox-green i {
+  color: #39db11;
+}
+.services .iconbox-green:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-green:hover .icon path {
+  fill: #39db11;
+}
+.services .iconbox-orange i {
+  color: #ff8d14;
+}
+.services .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-orange:hover .icon path {
+  fill: #ff8d14;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -999,13 +1018,13 @@ section {
   fill: #000dc0;
 }
 .contact .iconbox-orange i {
-  color: #db8a11;
+  color: #ff8d14;
 }
 .contact .iconbox-orange:hover .icon i {
   color: #fff;
 }
 .contact .iconbox-orange:hover .icon path {
-  fill: #db8a11;
+  fill: #ff8d14;
 }
 .contact .iconbox-green i {
   color: #39db11;
